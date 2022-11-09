@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    height: 10vh;
+    background: #3347B0;
+}
+
+.logo-image{
+    JAGHLKG
+}
+
+.logo-titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 96px;
+
+}
+
+.titulo-text{
+    display: flex;
+    width: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.logo-image{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: 75.03px;
+    left: 96px;
+    top: 14px;
+
+}
+
+.sair{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 96px;
+}
+
+.text-sair{
+    display: flex;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
